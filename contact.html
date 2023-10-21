@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>Contact Form</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Like what you see?</h2>
+                <p>Please feel free to fill out a simple contact form. I typically respond within 24 hours. Cheers!</p>
+            </section>
+
+            <section>
+                <p>Basic contact information</p>
+                <form id="form" action="functions.php" method="post">
+                    <input type="text" id="firstName" name="firstName" placeholder="First Name"/><br>
+                    <input type="text" id="lastName" name="lastName" placeholder="Last Name"/><br>
+                    <input type="text" id="eMail" name="eMail" placeholder="E-mail"/><br>
+                <p>Points of Interest</p>
+                    <label for="UCAT">UCAT</label>
+                    <input type="radio" id="UCAT" name="pointOfInterest" value="UCAT"/>
+                    <label for="Windows">Window Cleaning</label>
+                    <input type="radio" id="Windows" name="pointOfInterest" value="Windows"/>
+                    <label for="Development">Development</label>
+                    <input type="radio" id="Development`" name="pointOfInterest" value="Development"/><br>
+                    <input type="submit"/>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
